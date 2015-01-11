@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sport: MyString
+  movie: MyString
+  televison: MyString
+  fashion: MyString
+  music: MyString
+  entertainment: MyString
+  religion: MyString
+
+two:
+  sport: MyString
+  movie: MyString
+  televison: MyString
+  fashion: MyString
+  music: MyString
+  entertainment: MyString
+  religion: MyString

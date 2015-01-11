@@ -1,0 +1,2 @@
+module CountryCulturesHelper
+end

@@ -1,3 +1,33 @@
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav pull-right">
+                     <li>
+                       <%= link_to "Country", country_cultures_path %>
+                    </li>
+                     <li>
+                        <%= link_to "Community", communities_path %>
+                    </li>
+                     <li>
+                       <%= link_to "Bond culture", bond_cultures_path %>
+                    </li>
+                     <li>
+                        <%= link_to "High culture", high_cultures_path %>
+                    </li>
+                     <li>
+                        <%= link_to "Pop culture", popular_cultures_path %>
+                    </li>
+                    <li>
+                        <%= link_to "Log in", login_path %>
+                    </li>
+                    <li>
+                        <%= link_to "Sign up", signup_path %>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
 <% provide(:title, @user.name) %>
 <div class="row">
   <aside class="col-md-4">

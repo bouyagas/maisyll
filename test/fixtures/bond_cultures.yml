@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  value: MyString
+  norm: MyString
+  custom: MyString
+  tradition: MyString
+  belief: MyString
+  language: MyString
+
+two:
+  value: MyString
+  norm: MyString
+  custom: MyString
+  tradition: MyString
+  belief: MyString
+  language: MyString

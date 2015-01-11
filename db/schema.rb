@@ -11,7 +11,58 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141207070214) do
+ActiveRecord::Schema.define(version: 20141226064123) do
+
+  create_table "bond_cultures", force: true do |t|
+    t.string   "value"
+    t.string   "norm"
+    t.string   "custom"
+    t.string   "tradition"
+    t.string   "belief"
+    t.string   "language"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "communities", force: true do |t|
+    t.string   "name"
+    t.string   "place"
+    t.integer  "people"
+    t.string   "social_organisation"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "country_cultures", force: true do |t|
+    t.string   "name"
+    t.string   "symbol"
+    t.string   "value"
+    t.integer  "ally"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "high_cultures", force: true do |t|
+    t.string   "folk"
+    t.string   "classic_music"
+    t.string   "art"
+    t.string   "history"
+    t.string   "theater"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "popular_cultures", force: true do |t|
+    t.string   "sport"
+    t.string   "movie"
+    t.string   "televison"
+    t.string   "fashion"
+    t.string   "music"
+    t.string   "entertainment"
+    t.string   "religion"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "name"

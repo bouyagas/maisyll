@@ -1,0 +1,2 @@
+module HighCulturesHelper
+end

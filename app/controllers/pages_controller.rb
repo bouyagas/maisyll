@@ -17,4 +17,6 @@ class PagesController < ApplicationController
 
   def log_in
   end
+  def support
+  end
 end

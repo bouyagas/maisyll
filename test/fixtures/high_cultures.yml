@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  folk: MyString
+  classic_music: MyString
+  art: MyString
+  history: MyString
+  theater: MyString
+
+two:
+  folk: MyString
+  classic_music: MyString
+  art: MyString
+  history: MyString
+  theater: MyString

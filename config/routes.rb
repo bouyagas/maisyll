@@ -3,10 +3,19 @@ Rails.application.routes.draw do
       
   
   
+  get 'high cultures' => 'high_cultures#new'
+
+  get 'communities' => 'communities#new'
+
+  get 'bond cultures' => 'bond_cultures#new'
+
+  get 'pop cultures' => 'popular_cultures#new'
+
+  get 'cultures' => 'country_cultures#new'
+
   get 'sessions/new'
 
   get 'signup' => 'users#new'
-
 
   get 'about' => 'pages#about'
 
@@ -16,6 +25,8 @@ Rails.application.routes.draw do
 
   get 'privacy' => 'pages#privacy'
 
+  get 'support' => 'pages#support'
+
   get 'contact' => 'pages#contact'
   
   get 'login'   => 'sessions#new'
@@ -23,8 +34,14 @@ Rails.application.routes.draw do
   post 'login'   => 'sessions#create'
   
   delete 'logout'  => 'sessions#destroy'
+
   
   resources :users
+  resources :country_cultures
+  resources :popular_cultures
+  resources :high_cultures
+  resources :bond_cultures
+  resources :communities
 
 
   root 'landingpage#home'
