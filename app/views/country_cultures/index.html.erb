@@ -1,0 +1,8 @@
+<% @country_culture.each do |country_culture| %>
+<tr>
+  <td><%= country_culture.name %></td>
+  <td><%= country_culture.symbol %></td>
+  <td><%=country_culture.value %></td>
+  <td><%= country_culture.ally %></td>
+</tr>
+<% end %>

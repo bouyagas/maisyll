@@ -51,42 +51,7 @@
       <% end %>
       
 <%= yield %>
- <div class="container">
-
-        <div class="row">
-         <ul class="nav navbar-nav">
-             <li>
-                 <%= link_to "About", about_path %>
-             </li>
-             <li>
-                <%= link_to "Blog", blog_path %>
-             </li>
-             <li>
-                <%= link_to "Contact", contact_path %>
-             </li>
-             <li>
-                <%= link_to "Term", term_path %>
-             </li>
-             <li>
-                <%= link_to "Privacy", privacy_path %>
-             </li>
-             <li>
-              <%= link_to "Support" , support_path %>
-             </li>
-        </ul> 
-        </div>
-        
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Maisyll,inc 2014</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </footer>
-
-    </div>
+ 
         
    <%= debug(params) if Rails.env.development? %>
 </body>

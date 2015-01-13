@@ -1,6 +1,6 @@
 
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav pull-right">
+                <ul class="nav navbar-nav pull-left">
                      <li>
                        <%= link_to "Country", country_cultures_path %>
                     </li>
@@ -16,14 +16,7 @@
                      <li>
                         <%= link_to "Pop culture", popular_cultures_path %>
                     </li>
-                    <li>
-                        <%= link_to "Log in", login_path %>
-                    </li>
-                    <li>
-                        <%= link_to "Sign up", signup_path %>
-                    </li>
-                </ul>
-            </div>
+                    
 
 
 
@@ -33,8 +26,8 @@
   <aside class="col-md-4">
     <section class="user_info">
       <h1>
-        <%#= gravatar_for @user %>
-        <%#= @user.name %>
+        <%#= gravatar_for(@user) %>
+        <%= @user.name %>
       </h1>
     </section>
   </aside>

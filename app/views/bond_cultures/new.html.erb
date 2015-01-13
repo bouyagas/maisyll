@@ -1,2 +1,83 @@
-<h1>BondCultures#new</h1>
-<p>Find me in app/views/bond_cultures/new.html.erb</p>
+<h1>Bond Cultures</h1>
+
+
+<div class="container">
+<div class="row">
+  <div class="col-md-4 col-md-offset-4">
+    <%= form_for(@bond_culture) do |f| %>
+
+      <%= f.label :value %>
+      <%= f.text_field :value, class: 'form-control' %>
+
+      <%= f.label :norm %>
+      <%= f.text_field :norm, class: 'form-control' %>
+
+      <%= f.label :custom %>
+      <%= f.text_field :custom, class: 'form-control' %>
+
+      <%= f.label :tradition %>
+      <%= f.text_field :tradition, class: 'form-control' %>
+
+      <%= f.label :belief %>
+      <%= f.text_field :belief, class: 'form-control' %>
+
+      <%= f.label :languege %>
+      <%= f.text_field :language, class: 'form-control' %>
+      <%= f.submit  class: "btn btn-primary btn-lg btn-block" %>
+    <% end %>
+
+    <li>
+       <%= link_to "Back", bond_cultures_path %>
+     </li>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+
+<h1> Describe your culture ?</h1>
+<% @bond_cultures.each do |bond_culture| %>
+<tr>
+  <td><%= bond_culture.value %></td>
+  <td><%= bond_culture.norm %></td>
+  <td><%= bond_culture.custom %></td>
+  <td><%= bond_culture.tradition %></td>
+  <td><%= bond_culture.belief %></td>
+  <td><%= bond_culture.language %> </td>
+</tr>
+<% end %>
+
