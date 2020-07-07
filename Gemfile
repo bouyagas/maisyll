@@ -7,7 +7,7 @@ gem 'bootstrap-sass',       '3.3.1.0'
 gem 'sass-rails'         
 gem 'uglifier'            
 gem 'coffee-rails'       
-gem 'jquery-rails'       
+gem 'jquery-rails'       , '>= 3.1.3'
 gem 'turbolinks'         
 gem 'jbuilder'        
 #gem 'sdoc'      group: :doc
