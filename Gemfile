@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '6.0.3.5'
 gem 'bootstrap-sass',       '3.3.1.0'
 gem 'sass-rails'         
 gem 'uglifier'            
@@ -21,7 +21,7 @@ end
 
 group :test do
   gem 'minitest-reporters'
-  gem 'mini_backtrace'
+  gem 'mini_backtrace', '>= 0.1.3'
   gem 'guard-minitest'
 end
 
