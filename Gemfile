@@ -2,20 +2,20 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
-gem 'bootstrap-sass',       '3.3.1.0'
-gem 'sass-rails'         
-gem 'uglifier'            
-gem 'coffee-rails'       
-gem 'jquery-rails'       
-gem 'turbolinks'         
-gem 'jbuilder'        
+gem 'rails', '6.1.7.3'
+gem 'bootstrap-sass', '3.4.0'
+gem 'sass-rails'         , '>= 6.0.0'
+gem 'uglifier'            , '>= 2.7.2'
+gem 'coffee-rails'       , '>= 4.2.2'
+gem 'jquery-rails'       , '>= 4.4.0'
+gem 'turbolinks'         , '>= 5.0.0'
+gem 'jbuilder'        , '>= 2.6.4'
 #gem 'sdoc'      group: :doc
 
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
-  gem 'web-console'
+  gem 'web-console', '>= 2.1.3'
   gem 'spring'
 end
 
