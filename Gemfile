@@ -2,20 +2,20 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '7.0.8.1'
 gem 'bootstrap-sass',       '3.3.1.0'
-gem 'sass-rails'         
+gem 'sass-rails'         , '>= 5.0.8'
 gem 'uglifier'            
-gem 'coffee-rails'       
-gem 'jquery-rails'       
-gem 'turbolinks'         
+gem 'coffee-rails'       , '>= 4.2.2'
+gem 'jquery-rails'       , '>= 4.0.1'
+gem 'turbolinks'         , '>= 2.5.3'
 gem 'jbuilder'        
 #gem 'sdoc'      group: :doc
 
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
-  gem 'web-console'
+  gem 'web-console', '>= 2.1.0'
   gem 'spring'
 end
 
@@ -28,7 +28,7 @@ end
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor'
-  gem 'unicorn'
+  gem 'unicorn', '>= 4.9.0'
 end
 
 # Use ActiveModel has_secure_password
