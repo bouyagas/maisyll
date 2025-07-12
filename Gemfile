@@ -2,20 +2,20 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.8'
+gem 'rails', '7.1.0'
 gem 'bootstrap-sass',       '3.3.1.0'
 gem 'sass-rails'         
 gem 'uglifier'            
-gem 'coffee-rails'       
-gem 'jquery-rails'       
+gem 'coffee-rails'       , '>= 4.2.2'
+gem 'jquery-rails'       , '>= 4.0.1'
 gem 'turbolinks'         
-gem 'jbuilder'        
+gem 'jbuilder'        , '>= 2.6.4'
 #gem 'sdoc'      group: :doc
 
 group :development, :test do
   gem 'sqlite3'
   gem 'byebug'
-  gem 'web-console'
+  gem 'web-console', '>= 2.1.0'
   gem 'spring'
 end
 
@@ -44,4 +44,4 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'tzinfo-data', '>= 1.2015.1', platforms: [:mingw, :mswin]
